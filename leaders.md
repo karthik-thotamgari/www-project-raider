@@ -1,4 +1,3 @@
 ### Leaders
-* [Leader Name](mailto:leader.email@owasp.org)
-* [Leader Name](mailto:leader.email@owasp.org)
-* [Leader Name](mailto:leader.email@owasp.org)
+* [Daniel Neagaru](mailto:daniel@digeex.de)
+* [Antti Petinnen](mailto:antti.pettinen@gmail.com)
