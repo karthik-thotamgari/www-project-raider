@@ -10,7 +10,7 @@ pitch: Automate or attack any web authentication system
 ---
 
 
-![Raider logo](./assets/images/logo.png)
+![Raider logo](./assets/images/raider_logo.png)
 
 
 **Raider** is a framework designed to test authentication for web applications. While web proxies like [ZAProxy](https://www.zaproxy.org/) and [Burpsuite](https://portswigger.net/burp) allow authenticated tests, they don't provide features to test the authentication process itself, i.e. manipulating the relevant input fields to identify broken authentication.
