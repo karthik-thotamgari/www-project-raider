@@ -2,21 +2,23 @@
 
 layout: col-sidebar
 title: OWASP Raider
-tags: example-tag
+tags: authentication hylang python
 level: 2
-type: 
-pitch: A very brief, one-line description of your project
+type: tool
+pitch: Automate or attack any web authentication system
 
 ---
 
-This is an example of a Project or Chapter Page.  Please change these items to indicate the actual information you wish to present.  In addition to this information, the 'front-matter' above this text should be modified to reflect your actual information.  An explanation of each of the front-matter items is below:
 
-layout: This is the layout used by project and chapter pages.  You should leave this value as col-sidebar
+![Raider logo](./assets/images/logo.png)
 
-title: This is the title of your project or chapter page, usually the name.  For example, OWASP Zed Attack Proxy or OWASP Baltimore
 
-tags: This is a space-delimited list of tags you associate with your project or chapter.  If you are using tabs, at least one of these tags should be unique in order to be used in the tabs files (an example tab is included in this repo) 
+**Raider** is a framework designed to test authentication for web applications. While web proxies like [ZAProxy](https://www.zaproxy.org/) and [Burpsuite](https://portswigger.net/burp) allow authenticated tests, they don't provide features to test the authentication process itself, i.e. manipulating the relevant input fields to identify broken authentication.
 
-level: For projects, this is your project level (2 - Incubator, 3 - Lab, 4 - Flagship)
+**Raider** treats the authentication as a finite state machine. Each authentication step is a different state, with its own inputs and outputs. Those can be cookies, headers, CSRF tokens, or other pieces of information.
 
-type: code, tool, documentation, or other
+**Raider** was developed with the following goals:
+
+* To abstract authentication concepts using Python objects.
+* To support most modern web authentication features.
+* To make it easy to add new features for users.
