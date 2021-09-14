@@ -8,7 +8,7 @@
 ### Links
 
 * [Website](https://raiderauth.com/)
-* [Source](https://github.com/DigeeX/raider/)
+* [Source](https://github.com/OWASP/raider/)
 * [Documentation](https://docs.raiderauth.com/en/latest/)
 * [Forum](https://community.raiderauth.com/)
 * [Twitter](https://twitter.com/raiderauth)
