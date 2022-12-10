@@ -10,5 +10,10 @@
 * [Website](https://raiderauth.com/)
 * [Source](https://github.com/OWASP/raider/)
 * [Documentation](https://docs.raiderauth.com/en/latest/)
-* [Discussions](https://github.com/OWASP/raider/discussions)
+* [Installation](https://docs.raiderauth.com/en/latest/overview/install.html).
+* [FAQ](https://docs.raiderauth.com/en/latest/overview/faq.html).
+* [Getting started](https://docs.raiderauth.com/en/latest/tutorials/getting_started.html).
+* [Architecture](https://docs.raiderauth.com/en/latest/case_studies/architecture.html)
+* [Discussions](https://github.com/OWASP/raider/discussions).
+* [Issues](https://github.com/OWASP/raider/issues).
 * [Twitter](https://twitter.com/raiderauth)
