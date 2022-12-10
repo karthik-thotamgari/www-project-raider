@@ -5,7 +5,7 @@ title: OWASP Raider
 tags: authentication hylang python
 level: 2
 type: tool
-pitch: Automate or attack any web authentication system
+pitch: A novel framework for manipulating the HTTP processes of persistent sessions
 
 ---
 
@@ -13,12 +13,28 @@ pitch: Automate or attack any web authentication system
 ![Raider logo](./assets/images/raider_logo.png)
 
 
-**Raider** is a framework designed to test authentication for web applications. While web proxies like [ZAProxy](https://www.zaproxy.org/) and [Burpsuite](https://portswigger.net/burp) allow authenticated tests, they don't provide features to test the authentication process itself, i.e. manipulating the relevant input fields to identify broken authentication.
+**Raider** is a framework initially designed to test and automate the
+authentication process for web applications, and by now it has evolved
+and can be used for all kinds of stateful HTTP processes. It abstracts
+the client-server information exchange as a finite state machine. Each
+step comprises one request with inputs, one response with outputs,
+arbitrary actions to do on the response, and conditional links to
+other stages. Thus, a graph-like structure is created.
 
-**Raider** treats the authentication as a finite state machine. Each authentication step is a different state, with its own inputs and outputs. Those can be cookies, headers, CSRF tokens, or other pieces of information.
+Raider's configuration is inspired by Emacs. Hylang is used, which is
+LISP on top of Python. LISP is used because of its "Code is Data, Data
+is Code" property. With the magic of LISP macros generating
+configuration automatically becomes easy. Flexibility is in its DNA,
+meaning it can be infinitely extended with actual code. Since all
+configuration is stored in cleartext, reproducing, sharing or
+modifying attacks becomes easy.
 
-**Raider** was developed with the following goals:
+![Raider hyfile](./assets/images/config.png)
 
-* To abstract authentication concepts using Python objects.
-* To support most modern web authentication features.
-* To make it easy to add new features for users.
+You can use it for example to create, store, reproduce, and share
+proof-of-concepts easily for HTTP attacks. With Raider you can also
+search through your Projects, filter by hyfile, Flows, FlowGraphs,
+etc… Then you run either just one step, or a chain of steps, so you
+can automate and run tests on any HTTP process.
+
+![Graph structure](./assets/images/graph.png)
