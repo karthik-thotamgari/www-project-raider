@@ -35,8 +35,7 @@ etc... Then you run either just one step, or a chain of steps, so you
 can automate and run tests on any HTTP process.
 
 
-![Example hylang configuration](https://raiderauth.com/images/illustrations/config.png)
-
+![Example hylang configuration](./assets/images/config.png)
 
 # Graph-like architecture
 
@@ -45,11 +44,11 @@ client and the server for HTTP processes. Each step of the process is
 described by a Flow, which contains the Request with inputs, Response
 with outputs, and arbitrary actions including links to other Flows:
 
-![Flows](https://raiderauth.com/images/illustrations/raider_flows.png)
+![Flows](./assets/images/raider_flows.png)
 
 Chaining several Flows together can be used to simulate any stateful
 HTTP process. FlowGraphs indicate the starting point. They can be
 placed on any Flow. A FlowGraphs runs all Flows in the link until
 Success/Failure is returned or if there are no more links.
 
-![Flows and FlowGraphs](https://raiderauth.com/images/illustrations/graph.png)
+![Flows and FlowGraphs](./assets/images/graph.png)
