@@ -16,4 +16,5 @@
 * [Architecture](https://docs.raiderauth.com/en/latest/case_studies/architecture.html)
 * [Discussions](https://github.com/OWASP/raider/discussions).
 * [Issues](https://github.com/OWASP/raider/issues).
-* [Twitter](https://twitter.com/raiderauth)
+* [Twitter](https://twitter.com/raiderauth).
+* [Fediverse](https://infosec.exchange/@raiderauth).
